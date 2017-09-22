@@ -1,4 +1,5 @@
 @charset "utf-8"
+/**Ye Yint Thet Khine(Start)**/
 .sidebar {
 	margin:0;
 	padding:0;
@@ -99,4 +100,54 @@ ol li .send {
 	margin:0;
 	border:0;
 	width:auto;
+}
+/**Ye Yint Thet Khine(End)**/
+
+/**Michael Pai(Start)**/
+.nav {
+	background: -webkit-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: -o-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: -moz-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+	font-family: Consolas, Andale Mono, Lucida Console, Lucida Sans Typewriter, Monaco, Courier New, monospace, Jokerman;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: auto;
+	width: 75%;
+	padding: 0% 12.5%;
+    overflow: hidden;
+	
+}
+
+.nav li {
+    float: left;
+}
+
+.nav a {
+    display: block;
+    color: #F36D0C;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+ul.nav li a:hover, ul.nav li.current a {
+    color: #FFFFFF;
+}
+
+.footer {
+    width:100%;
+    margin: auto;
+	text-align:center;
+	background: -webkit-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: -o-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: -moz-linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+    background: linear-gradient(left, #230304, #1A0607, #410608, #1A0607, #230304);
+	color: #F36D0C;
+}
+
+.footer a {
+	color: #F36D0C;
 }
