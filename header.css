@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0;
+}
+#fixed_header{
+	width:100%;
+}
+.banner img{
+	position: relative;
+	top:0em;
+	left:0em;
+	height:5.5em;
+	width:100%;
+	z-index:-1;
+}
+.logo img{
+	position:fixed;
+	top:0em;
+	left:0em;
+	z-index:9999;
+}
